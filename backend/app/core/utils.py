@@ -4,7 +4,7 @@ import shutil
 from typing import List
 from fastapi import status, HTTPException, UploadFile
 
-ALLOWED_FILE_EXTENSIONS = ["m4a", "flac", "mp3", 'mp4', "wav", "wma", "aac"]
+ALLOWED_FILE_EXTENSIONS = ["m4a", "flac", "mp3", 'mp4', "wav", "wma", "aac", "ogg"]
 
 
 def encoding_base64_string(value: str) -> str:
